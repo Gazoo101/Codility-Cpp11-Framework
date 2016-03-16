@@ -4,8 +4,7 @@ Given the prevalence of automated logic puzzle driven evaluation systems, I thou
 
 ## How To Use
 
-The included [main.cpp](Codility-Cpp11-Framework/main.cpp) file demonstrates basic usage. It looks like this:
-
+The included [main.cpp](Codility-Cpp11-Framework/main.cpp) file demonstrates basic usage. By default, the framework will print the output of your test results (and input parameters) into Visual Studio's Output window. But adding a different output function is very straight-forward, as demonstrated in the excerpt from [main.cpp](Codility-Cpp11-Framework/main.cpp) below:
 
 	// Init Helper!
 	auto helper = std::make_unique<TestHelper>();
