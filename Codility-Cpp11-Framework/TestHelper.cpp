@@ -13,7 +13,7 @@ TestHelper::TestHelper()
 
 }
 
-TestHelper::TestHelper( std::function<void( std::string const& str )>& printFunc ) :
+TestHelper::TestHelper( std::function<void( std::string const& str )> const& printFunc ) :
 	mPrintFunc( printFunc )
 {
 

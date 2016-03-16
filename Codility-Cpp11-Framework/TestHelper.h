@@ -8,7 +8,7 @@
 class TestHelper {
 public:
 	TestHelper();
-	TestHelper( std::function<void( std::string const& str )>& printFunc );
+	TestHelper( std::function<void( std::string const& str )> const& printFunc );
 	~TestHelper();
 
 	template <typename Functor, typename... Ts>

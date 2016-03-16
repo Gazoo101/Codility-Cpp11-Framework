@@ -52,4 +52,12 @@ int main()
 	helper->execute( ex6, 101, std::vector<int> { 1, 2, 3, 4, 5 }, std::vector<int> { 6, 7, 8, 9, 0 } );
 	helper->execute( ex7, "Foobar" );
 
+	// Instantiate a helper with a different output function (to std::cout)
+	auto helper2 = std::make_unique<TestHelper>( []( std::string const& str ) {
+		std::cout << str;
+	} );
+
+	helper2->execute( ex1, 1 );
+	helper2->execute( ex2, std::vector<int> { 1, 2, 3, 4, 5 }, 1 );
+
 }
