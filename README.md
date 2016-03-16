@@ -6,8 +6,8 @@ Given the prevalence of automated logic puzzle driven evaluation systems, I thou
 
 The included [main.cpp](Codility-Cpp11-Framework/main.cpp) file demonstrates basic usage. It looks like this:
 
-'''
-// Init Helper!
+
+	// Init Helper!
 	auto helper = std::make_unique<TestHelper>();
 
 	helper->execute( ex1, 1 );
@@ -25,4 +25,3 @@ The included [main.cpp](Codility-Cpp11-Framework/main.cpp) file demonstrates bas
 
 	helper2->execute( ex1, 1 );
 	helper2->execute( ex2, std::vector<int> { 1, 2, 3, 4, 5 }, 1 );
-'''
