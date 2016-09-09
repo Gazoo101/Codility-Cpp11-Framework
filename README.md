@@ -2,7 +2,7 @@
 
 Given the prevalence of automated logic puzzle driven evaluation systems, I thought it useful to put together a simple straight-forward interface to simplift the parts that really don't matter to the evaluators and generally help to test takers.
 
-Unless you are forced to code in C++11, I will highly recommend using [Python-based version](Gazoo101/Codility-Python-Framework). In many cases it will be a more efficient use of your time.
+Unless you are forced to code in C++11, I will highly recommend using [Python-based version](../Codility-Python-Framework). In many cases it will be a more efficient use of your time.
 
 ## How To Use
 
