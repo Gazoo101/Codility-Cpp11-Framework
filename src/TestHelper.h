@@ -1,5 +1,5 @@
-#ifndef TESTHELPER_H_INCLUDED
-#define TESTHELPER_H_INCLUDED
+// Gazoo's Codility Test Helper
+#pragma once
 
 #include <vector>
 #include <sstream>
@@ -105,5 +105,3 @@ void TestHelper::printToStream( std::ostringstream& out, std::vector<T> t, U u, 
 
 	printToStream( out, u, args... );
 }
-
-#endif // TESTHELPER_H_INCLUDED
