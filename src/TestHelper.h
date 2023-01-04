@@ -9,7 +9,7 @@ class TestHelper {
 public:
 	TestHelper();
 	TestHelper( std::function<void( std::string const& str )> const& printFunc );
-	~TestHelper();
+	~TestHelper() = default;
 
 	template <typename Functor, typename... Ts>
 	void execute( Functor&& f, Ts&& ... args );

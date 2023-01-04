@@ -3,7 +3,7 @@
 
 TestHelper::TestHelper()
 {
-	// Std. Print to the output window!
+	// Std. Print to Visual Studio's Output windows
 	mPrintFunc = []( std::string const& str )
 	{
 		std::ostringstream oss;
@@ -13,13 +13,8 @@ TestHelper::TestHelper()
 
 }
 
-TestHelper::TestHelper( std::function<void( std::string const& str )> const& printFunc ) :
-	mPrintFunc( printFunc )
-{
-
-}
-
-TestHelper::~TestHelper()
+TestHelper::TestHelper( std::function<void( std::string const& str )> const& printFunc )
+	: mPrintFunc( printFunc )
 {
 
 }
